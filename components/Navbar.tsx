@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 const navLinks = [
   { href: "#about", label: "Our Story" },
   { href: "#academics", label: "Academics" },
-  { href: "#why-us", label: "Why Tanzanite" },
+  { href: "#why-us", label: "Why Rwepas" },
   { href: "#life", label: "Student Life" },
   { href: "#campus", label: "Campus" },
   { href: "#admissions", label: "Admissions" },
@@ -48,11 +48,11 @@ export default function Navbar() {
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
           <div className="h-9 w-9 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-display text-xl tracking-[-1px]">TA</span>
+            <span className="text-primary-foreground font-display text-xl tracking-[-1px]">RS</span>
           </div>
           <div>
-            <div className="font-display text-2xl tracking-[-1.5px] text-foreground">Tanzanite</div>
-            <div className="text-[10px] text-muted-foreground -mt-1 tracking-[2px]">ACADEMY</div>
+            <div className="font-display text-2xl tracking-[-1.5px] text-foreground">Rwepas</div>
+            <div className="text-[10px] text-muted-foreground -mt-1 tracking-[2px]">SECONDARY SCHOOL</div>
           </div>
         </Link>
 

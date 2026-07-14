@@ -4,14 +4,14 @@ import { motion } from "framer-motion"
 import { Users, UserCheck, Shield, Laptop, Award, Heart, Bus, Home } from "lucide-react"
 
 const features = [
-  { icon: Users, title: "Exceptional Teachers", desc: "Over 85% of our faculty hold advanced degrees. Passionate educators who know every student by name." },
-  { icon: UserCheck, title: "Small Class Sizes", desc: "Maximum 22 students per class. Every voice is heard. Every question is answered." },
-  { icon: Shield, title: "Pastoral Care & Safety", desc: "Dedicated counselors, house parents, and a 24/7 security team in a secure, nurturing environment." },
+  { icon: Users, title: "Exceptional Teachers", desc: "Over 85% of our faculty hold advanced degrees. Passionate educators who know every student by name and care deeply about their success." },
+  { icon: UserCheck, title: "Small Class Sizes", desc: "Maximum 22 students per class. Every voice is heard. Every question is answered. Personalised attention is our standard." },
+  { icon: Shield, title: "Pastoral Care & Safety", desc: "Dedicated counselors, house parents, and a 24/7 security team in a secure, nurturing environment where every child feels safe and valued." },
   { icon: Laptop, title: "Modern Technology", desc: "1:1 device program, smart classrooms, high-speed campus-wide connectivity, and digital learning platforms." },
-  { icon: Award, title: "Leadership Programs", desc: "Student council, prefect system, Model UN, entrepreneurship incubator, and community impact projects." },
-  { icon: Heart, title: "Holistic Development", desc: "Sports, music, debate, drama, chess, coding, and over 30 clubs and societies." },
-  { icon: Bus, title: "Safe Transport", desc: "GPS-tracked fleet with trained drivers serving Dar es Salaam and surrounding areas." },
-  { icon: Home, title: "Boarding Excellence", desc: "Modern, comfortable boarding houses with academic support, weekend activities, and caring house parents." },
+  { icon: Award, title: "Leadership Programs", desc: "Strong prefect system, student council, Model UN, entrepreneurship incubator, and community impact projects." },
+  { icon: Heart, title: "Holistic Development", desc: "Sports, music, debate, drama, chess, coding, and over 35 clubs and societies that develop the whole child." },
+  { icon: Bus, title: "Safe Transport", desc: "GPS-tracked fleet with trained drivers serving Dar es Salaam and surrounding areas with the highest safety standards." },
+  { icon: Home, title: "Boarding Excellence", desc: "Modern, comfortable boarding houses with academic support, weekend activities, and caring house parents who become extended family." },
 ]
 
 export default function WhyChooseSection() {
@@ -21,10 +21,10 @@ export default function WhyChooseSection() {
         <div className="grid lg:grid-cols-12 gap-x-16 gap-y-12 items-center">
           <div className="lg:col-span-5">
             <div className="sticky top-24">
-              <div className="uppercase tracking-[4px] text-xs text-primary/70 mb-3">THE TANZANITE DIFFERENCE</div>
-              <h2 className="heading">Why parents<br />choose us.</h2>
+              <div className="uppercase tracking-[4px] text-xs text-primary/70 mb-3">THE RWEPAS DIFFERENCE</div>
+              <h2 className="heading">Why families<br />choose Rwepas.</h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                We don&apos;t just prepare students for examinations. We prepare them for life — with character, confidence, and capability.
+                We don&apos;t just prepare students for examinations. We prepare them for life — with strong character, confidence, and capability.
               </p>
               <div className="mt-8 text-sm text-primary/80 font-medium tracking-widest">8 REASONS FAMILIES TRUST US</div>
             </div>

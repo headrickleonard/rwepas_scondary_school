@@ -10,18 +10,18 @@ export default function Footer() {
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <div className="h-9 w-9 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-display text-xl tracking-[-1px]">TA</span>
+                <span className="text-primary-foreground font-display text-xl tracking-[-1px]">RS</span>
               </div>
               <div>
-                <div className="font-display text-3xl tracking-[-1.5px]">Tanzanite Academy</div>
+                <div className="font-display text-3xl tracking-[-1.5px]">Rwepas Secondary School</div>
               </div>
             </div>
             <p className="text-muted-foreground max-w-md text-[15px] leading-relaxed">
-              Illuminating young minds. Shaping future leaders. 
-              A premier secondary school in the heart of Dar es Salaam.
+              Rooted in values. Rising to excellence. 
+              A premier secondary school shaping leaders of character and purpose in Dar es Salaam.
             </p>
             <div className="mt-8 text-xs tracking-[3px] text-muted-foreground/70 font-medium">
-              EXCELLENCE • INTEGRITY • GROWTH
+              EXCELLENCE • CHARACTER • SERVICE
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
               <Button type="submit" size="default" className="rounded-2xl px-6">Join</Button>
             </form>
             <div className="mt-8 text-xs text-muted-foreground/60">
-              © {new Date().getFullYear()} Tanzanite Academy. All rights reserved.<br />
+              © {new Date().getFullYear()} Rwepas Secondary School. All rights reserved.<br />
               Dar es Salaam, Tanzania
             </div>
           </div>

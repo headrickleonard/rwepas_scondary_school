@@ -9,10 +9,10 @@ import { Calendar, Users, FileText, Award } from "lucide-react"
 import { toast } from "sonner"
 
 const steps = [
-  { icon: FileText, title: "Submit Application", desc: "Complete our online application form with academic records and recommendations." },
-  { icon: Users, title: "Assessment & Interview", desc: "Prospective students participate in an entrance assessment and family interview." },
-  { icon: Award, title: "Offer & Acceptance", desc: "Successful candidates receive offers. Secure your place with a deposit." },
-  { icon: Calendar, title: "Orientation & Start", desc: "Join our welcoming orientation week and begin your Tanzanite journey." },
+  { icon: FileText, title: "Submit Application", desc: "Complete our online application form with academic records and teacher recommendations." },
+  { icon: Users, title: "Assessment & Interview", desc: "Prospective students participate in an entrance assessment and a warm family interview." },
+  { icon: Award, title: "Offer & Acceptance", desc: "Successful candidates receive offers. Secure your place with a deposit and welcome pack." },
+  { icon: Calendar, title: "Orientation & Start", desc: "Join our welcoming orientation week and begin your journey at Rwepas Secondary School." },
 ]
 
 export default function AdmissionsSection() {
@@ -28,7 +28,7 @@ export default function AdmissionsSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     toast.success("Application inquiry received. Our admissions team will contact you within 48 hours.", {
-      description: "Thank you for your interest in Tanzanite Academy.",
+      description: "Thank you for your interest in Rwepas Secondary School.",
     })
     setFormData({ parentName: "", email: "", phone: "", childName: "", childAge: "", message: "" })
   }
@@ -39,7 +39,7 @@ export default function AdmissionsSection() {
         <div className="max-w-2xl mb-14">
           <div className="uppercase tracking-[4px] text-xs text-primary/70 mb-3">JOIN OUR COMMUNITY</div>
           <h2 className="heading">Begin your child&apos;s<br />extraordinary journey.</h2>
-          <p className="subheading mt-5">Applications for the 2026/2027 academic year are now open. We welcome inquiries year-round.</p>
+          <p className="subheading mt-5">Applications for the 2026/2027 academic year are now open. We welcome inquiries throughout the year.</p>
         </div>
 
         <div className="grid lg:grid-cols-12 gap-8">
@@ -83,7 +83,7 @@ export default function AdmissionsSection() {
               <CardContent className="p-10">
                 <div className="mb-8">
                   <div className="font-display text-3xl tracking-[-0.5px]">Make an Inquiry</div>
-                  <p className="text-muted-foreground mt-2">Our admissions team personally responds to every inquiry.</p>
+                  <p className="text-muted-foreground mt-2">Our admissions team personally responds to every inquiry with care and clarity.</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-5">
@@ -144,7 +144,7 @@ export default function AdmissionsSection() {
                     <Textarea 
                       value={formData.message} 
                       onChange={(e) => setFormData({...formData, message: e.target.value})} 
-                      placeholder="We are particularly interested in boarding options and the arts program..." 
+                      placeholder="We are particularly interested in boarding options and the arts programme..." 
                       className="min-h-[120px]" 
                     />
                   </div>

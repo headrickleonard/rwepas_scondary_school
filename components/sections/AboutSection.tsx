@@ -12,8 +12,8 @@ export default function AboutSection() {
           <div className="uppercase tracking-[4px] text-xs text-primary/70 mb-3">OUR FOUNDATION</div>
           <h2 className="heading">A legacy of<br />excellence since 1998.</h2>
           <p className="subheading mt-6">
-            Tanzanite Academy was founded on the belief that every child carries extraordinary potential. 
-            For over two decades, we have cultivated an environment where academic rigor meets deep human development.
+            Rwepas Secondary School was founded on the belief that every child carries extraordinary potential. 
+            For over two decades, we have cultivated an environment where academic rigor meets deep human development and strong values.
           </p>
         </div>
 
@@ -22,7 +22,7 @@ export default function AboutSection() {
             <div className="aspect-[16/9] md:aspect-auto md:h-full relative">
               <img 
                 src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070" 
-                alt="Students collaborating at Tanzanite Academy" 
+                alt="Students collaborating at Rwepas Secondary School" 
                 className="absolute inset-0 w-full h-full object-cover" 
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20" />
@@ -42,7 +42,7 @@ export default function AboutSection() {
                 </div>
                 <p className="text-[15px] leading-relaxed text-muted-foreground">
                   To provide a transformative education that empowers students from diverse backgrounds to become compassionate, 
-                  intellectually curious, and globally minded leaders who contribute meaningfully to society.
+                  intellectually curious, and globally minded leaders who contribute meaningfully to society and honour their roots.
                 </p>
               </CardContent>
             </Card>
@@ -54,8 +54,8 @@ export default function AboutSection() {
                   <div className="font-display text-2xl tracking-tight">Our Vision</div>
                 </div>
                 <p className="text-[15px] leading-relaxed text-muted-foreground">
-                  To be East Africa&apos;s most respected secondary school — where every graduate leaves equipped not only with exceptional academic results, 
-                  but with the character, creativity, and courage to shape a better future.
+                  To be one of East Africa&apos;s most respected secondary schools — where every graduate leaves equipped not only with exceptional academic results, 
+                  but with the character, creativity, and courage to shape a better future for Tanzania and beyond.
                 </p>
               </CardContent>
             </Card>
@@ -70,9 +70,9 @@ export default function AboutSection() {
           
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Users, title: "Community", desc: "We believe in the power of belonging. Every student is seen, valued, and supported." },
-              { icon: Target, title: "Excellence", desc: "We pursue mastery in academics, arts, sports, and character with quiet determination." },
-              { icon: Heart, title: "Integrity", desc: "Honesty, respect, and responsibility form the foundation of everything we do." },
+              { icon: Users, title: "Community", desc: "We believe in the power of belonging. Every student is seen, valued, and supported as part of our family." },
+              { icon: Target, title: "Excellence", desc: "We pursue mastery in academics, arts, sports, and character with quiet determination and high standards." },
+              { icon: Heart, title: "Integrity", desc: "Honesty, respect, responsibility, and service form the foundation of everything we do at Rwepas." },
             ].map((value, i) => (
               <motion.div 
                 key={i}

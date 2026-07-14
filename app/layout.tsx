@@ -21,8 +21,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Tanzanite Academy | Premier Secondary School in Dar es Salaam",
-  description: "Discover Tanzanite Academy — a world-class secondary school in Dar es Salaam, Tanzania. Nurturing excellence, character, and leadership in every student. Where African brilliance meets global standards.",
+  title: "Rwepas Secondary School | Premier Secondary School in Dar es Salaam",
+  description: "Discover Rwepas Secondary School — a world-class secondary school in Dar es Salaam, Tanzania. Rooted in values, rising to excellence. Nurturing leaders of character, intellect, and purpose.",
   icons: {
     icon: "/favicon.ico",
   },

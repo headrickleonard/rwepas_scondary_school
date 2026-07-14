@@ -1,20 +1,23 @@
 "use client"
 
 import React, { useEffect } from "react"
-import { motion } from "framer-motion"
 import Lenis from "lenis"
-import { ArrowRight, Users, Award, Globe, Heart } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 import AboutSection from "@/components/sections/AboutSection"
 import AcademicsSection from "@/components/sections/AcademicsSection"
 import WhyChooseSection from "@/components/sections/WhyChooseSection"
 import ResultsSection from "@/components/sections/ResultsSection"
+import StudentLifeSection from "@/components/sections/StudentLifeSection"
+import CampusSection from "@/components/sections/CampusSection"
+import TestimonialsSection from "@/components/sections/TestimonialsSection"
+import FacultySection from "@/components/sections/FacultySection"
+import FAQSection from "@/components/sections/FAQSection"
 import AdmissionsSection from "@/components/sections/AdmissionsSection"
 import ContactSection from "@/components/sections/ContactSection"
 
-export default function TanzaniteAcademy() {
+export default function RwepasSecondarySchool() {
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.1,
@@ -53,7 +56,7 @@ export default function TanzaniteAcademy() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070" 
-            alt="Tanzanite Academy students in a modern learning environment" 
+            alt="Rwepas Secondary School students in a modern learning environment in Dar es Salaam" 
             className="object-cover w-full h-full brightness-[0.65]" 
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
@@ -66,12 +69,12 @@ export default function TanzaniteAcademy() {
             </div>
 
             <h1 className="display text-white mb-6 tracking-[-0.05em] leading-[0.92]">
-              Where African<br /> brilliance<br /> meets the world.
+              Rooted in values.<br />Rising to<br />excellence.
             </h1>
             
             <p className="max-w-2xl mx-auto text-xl md:text-2xl text-white/90 font-light tracking-[-0.01em] mb-10">
-              A premier secondary school nurturing the next generation of 
-              thoughtful leaders, innovators, and changemakers.
+              A premier secondary school in Dar es Salaam nurturing leaders of character, 
+              intellect, and purpose for Tanzania and the world.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -88,7 +91,7 @@ export default function TanzaniteAcademy() {
                 onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth", block: "start" })}
                 className="border-white/70 text-white hover:bg-white/10 h-14 px-8 rounded-full backdrop-blur-sm text-base"
               >
-                Watch Our Story
+                Discover Our Story
               </Button>
             </div>
 
@@ -112,6 +115,11 @@ export default function TanzaniteAcademy() {
       <AcademicsSection />
       <WhyChooseSection />
       <ResultsSection />
+      <StudentLifeSection />
+      <CampusSection />
+      <TestimonialsSection />
+      <FacultySection />
+      <FAQSection />
       <AdmissionsSection />
       <ContactSection />
     </>

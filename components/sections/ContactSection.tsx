@@ -16,7 +16,7 @@ export default function ContactSection() {
               <div className="flex gap-5">
                 <MapPin className="mt-1 h-5 w-5 text-primary flex-shrink-0" />
                 <div>
-                  <div className="font-medium">Tanzanite Academy</div>
+                  <div className="font-medium">Rwepas Secondary School</div>
                   <div className="text-muted-foreground">Plot 124, Msasani Peninsula<br />Dar es Salaam, Tanzania</div>
                 </div>
               </div>
@@ -30,8 +30,8 @@ export default function ContactSection() {
               <div className="flex gap-5">
                 <Mail className="mt-1 h-5 w-5 text-primary flex-shrink-0" />
                 <div>
-                  <div className="font-medium">admissions@tanzanite.ac.tz</div>
-                  <div className="text-muted-foreground">info@tanzanite.ac.tz</div>
+                  <div className="font-medium">admissions@rwepas.ac.tz</div>
+                  <div className="text-muted-foreground">info@rwepas.ac.tz</div>
                 </div>
               </div>
               <div className="flex gap-5">
