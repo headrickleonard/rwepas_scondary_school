@@ -9,9 +9,9 @@ import { Calendar, Users, FileText, Award } from "lucide-react"
 import { toast } from "sonner"
 
 const steps = [
-  { icon: FileText, title: "Submit Application", desc: "Complete our online application form with academic records and teacher recommendations." },
-  { icon: Users, title: "Assessment & Interview", desc: "Prospective students participate in an entrance assessment and a warm family interview." },
-  { icon: Award, title: "Offer & Acceptance", desc: "Successful candidates receive offers. Secure your place with a deposit and welcome pack." },
+  { icon: FileText, title: "Submit Application", desc: "Complete our online application form with academic records and recommendations." },
+  { icon: Users, title: "Assessment & Interview", desc: "Prospective students participate in an entrance assessment and family interview." },
+  { icon: Award, title: "Offer & Acceptance", desc: "Successful candidates receive offers. Secure your place with a deposit." },
   { icon: Calendar, title: "Orientation & Start", desc: "Join our welcoming orientation week and begin your journey at Rwepas Secondary School." },
 ]
 

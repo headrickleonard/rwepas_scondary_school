@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -7,6 +9,7 @@ export default function Footer() {
     <footer className="bg-[#F5F2EE] border-t border-border/60 pt-20 pb-12">
       <div className="container">
         <div className="grid md:grid-cols-12 gap-x-8 gap-y-16">
+          {/* Brand & Motto */}
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
               <div className="h-9 w-9 rounded-full bg-primary flex items-center justify-center">
@@ -25,6 +28,7 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Quick Links */}
           <div className="md:col-span-2">
             <div className="font-medium text-sm tracking-widest mb-5 text-foreground/70">EXPLORE</div>
             <div className="space-y-3 text-[15px]">
@@ -45,10 +49,17 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Newsletter */}
           <div className="md:col-span-3">
             <div className="font-medium text-sm tracking-widest mb-5 text-foreground/70">STAY CONNECTED</div>
             <p className="text-muted-foreground text-sm mb-4">Receive our quarterly magazine and important updates.</p>
-            <form className="flex gap-2" onSubmit={(e) => { e.preventDefault(); alert("Thank you! You are now subscribed.") }}>
+            <form 
+              className="flex gap-2" 
+              onSubmit={(e) => { 
+                e.preventDefault(); 
+                alert("Thank you! You are now subscribed to our updates.") 
+              }}
+            >
               <Input 
                 type="email" 
                 placeholder="your@email.com" 
