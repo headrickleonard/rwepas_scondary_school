@@ -59,7 +59,7 @@ export default function AcademicsSection() {
             >
               <Card className="premium-card h-full group border-none">
                 <CardHeader className="pb-4">
-                  <div className="w-12 h-12 rounded-2xl bg-primary/5 flex items-center justify-center mb-6 text-primary group-hover:bg-primary/10 transition">
+                  <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 text-primary group-hover:bg-primary/15 transition">
                     <item.icon className="h-6 w-6" />
                   </div>
                   <CardTitle className="text-2xl tracking-[-0.5px]">{item.title}</CardTitle>

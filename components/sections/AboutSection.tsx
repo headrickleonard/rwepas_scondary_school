@@ -62,6 +62,7 @@ export default function AboutSection() {
           </div>
         </div>
 
+        {/* Core Values */}
         <div className="mt-20">
           <div className="text-center mb-10">
             <div className="uppercase tracking-[3px] text-xs text-primary/70 mb-2">WHAT GUIDES US</div>
@@ -79,7 +80,7 @@ export default function AboutSection() {
                 whileHover={{ y: -4 }}
                 className="premium-card p-9 group"
               >
-                <div className="p-3.5 w-fit rounded-2xl bg-primary/5 text-primary mb-8 group-hover:bg-primary/10 transition">
+                <div className="p-3.5 w-fit rounded-2xl bg-primary/10 text-primary mb-8 group-hover:bg-primary/15 transition">
                   <value.icon className="h-6 w-6" />
                 </div>
                 <div className="font-display text-3xl tracking-[-0.5px] mb-4">{value.title}</div>
