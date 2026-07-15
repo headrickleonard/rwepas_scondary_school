@@ -4,34 +4,40 @@
 
 @layer base {
   :root {
-    --background: 250 250 248;
-    --foreground: 30 30 28;
+    /* === PREMIUM CALM PALETTE === */
+    --background: 250 250 248;        /* Warm White / Soft Ivory */
+    --foreground: 35 35 33;           /* Near black, readable */
+
     --card: 255 255 253;
-    --card-foreground: 30 30 28;
+    --card-foreground: 35 35 33;
+
     --popover: 255 255 253;
-    --popover-foreground: 30 30 28;
-    --primary: 15 61 58;
+    --popover-foreground: 35 35 33;
+
+    /* Deep Forest Green - Sophisticated primary */
+    --primary: 18 52 45;              /* hsl(18 52% 45%) - rich deep green */
     --primary-foreground: 250 250 248;
+
+    /* Warm Sand - Secondary */
     --secondary: 234 228 220;
-    --secondary-foreground: 60 55 50;
+    --secondary-foreground: 55 50 45;
+
+    /* Soft Stone - Muted */
     --muted: 245 242 238;
-    --muted-foreground: 100 95 90;
-    --accent: 180 140 90;
+    --muted-foreground: 95 90 85;
+
+    /* Golden Amber - Subtle accent */
+    --accent: 175 135 85;
     --accent-foreground: 255 255 253;
-    --destructive: 180 60 50;
+
+    --destructive: 175 55 45;
     --destructive-foreground: 250 250 248;
+
     --border: 225 220 215;
     --input: 225 220 215;
-    --ring: 15 61 58;
-    --radius: 0.75rem;
-  }
+    --ring: 18 52 45;
 
-  .dark {
-    --background: 20 22 24;
-    --foreground: 245 243 240;
-    --card: 30 32 34;
-    --primary: 120 170 160;
-    --accent: 200 160 110;
+    --radius: 0.75rem;
   }
 }
 
@@ -48,7 +54,7 @@
   }
 }
 
-/* Premium editorial styles */
+/* === PREMIUM EDITORIAL STYLES === */
 .section {
   @apply py-24 md:py-32;
 }
@@ -57,9 +63,8 @@
   @apply max-w-7xl mx-auto px-6 md:px-8;
 }
 
-/* Elegant typography scale */
 .display {
-  @apply text-6xl md:text-7xl lg:text-8xl font-display tracking-[-0.04em] leading-[0.95];
+  @apply text-6xl md:text-7xl lg:text-8xl font-display tracking-[-0.04em] leading-[0.92];
 }
 
 .heading {
@@ -70,68 +75,49 @@
   @apply text-xl md:text-2xl text-muted-foreground font-normal tracking-[-0.01em];
 }
 
-/* Soft cards with premium feel */
+/* Soft premium cards */
 .premium-card {
-  @apply bg-card rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] hover:shadow-[0_10px_40px_rgb(0,0,0,0.06)] transition-all duration-500 border border-border/50;
+  @apply bg-card rounded-3xl shadow-[0_4px_24px_rgb(0,0,0,0.035)] hover:shadow-[0_12px_48px_rgb(0,0,0,0.06)] transition-all duration-500 border border-border/40;
 }
 
-/* Image hover effects */
+/* Better contrast buttons */
+.btn-premium {
+  @apply inline-flex items-center justify-center rounded-full px-8 py-4 text-sm font-medium tracking-[0.02em] transition-all active:scale-[0.985];
+}
+
+/* Image handling */
 .img-hover {
   @apply transition-transform duration-700 ease-out group-hover:scale-[1.03];
 }
 
-/* Smooth scroll behavior enhanced by Lenis */
+/* Smooth scroll */
 html.lenis {
   scroll-behavior: auto;
 }
 
-/* Stagger animation utility */
-.stagger-item {
-  @apply opacity-0 translate-y-4;
-  animation: fade-up 0.6s ease-out forwards;
-}
-
-/* FAQ accordion premium */
-.accordion-trigger {
-  @apply flex w-full items-center justify-between py-6 text-left text-lg font-medium transition-all hover:text-primary/90 [&[data-state=open]>svg]:rotate-180;
-}
-
-/* Testimonial quote style */
-.quote {
-  @apply text-2xl md:text-3xl font-display leading-tight tracking-[-0.01em] text-foreground/90;
-}
-
-/* Stats number */
-.stat-number {
-  @apply font-display text-6xl md:text-7xl font-semibold tabular-nums tracking-[-0.04em];
-}
-
-/* Masonry gallery */
-.masonry {
-  column-count: 1;
-  column-gap: 1.5rem;
-}
-@media (min-width: 768px) {
-  .masonry {
-    column-count: 2;
-  }
-}
-@media (min-width: 1024px) {
-  .masonry {
-    column-count: 3;
-  }
-}
-.masonry-item {
-  break-inside: avoid;
-  margin-bottom: 1.5rem;
-}
-
-/* Navbar glass on scroll */
+/* Navbar */
 .nav-scrolled {
   @apply bg-background/95 backdrop-blur-xl border-b border-border/60 shadow-sm;
 }
 
-/* Form inputs premium */
+/* Form inputs */
 .input-premium {
-  @apply w-full rounded-2xl border border-border bg-white px-6 py-4 text-base placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary/40 transition-all;
+  @apply w-full rounded-2xl border border-border bg-white px-6 py-4 text-base placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary/30 transition-all;
+}
+
+/* Stats */
+.stat-number {
+  @apply font-display text-6xl md:text-7xl font-semibold tabular-nums tracking-[-0.04em];
+}
+
+/* Masonry */
+.masonry {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 768px) { .masonry { column-count: 2; } }
+@media (min-width: 1024px) { .masonry { column-count: 3; } }
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
 }
