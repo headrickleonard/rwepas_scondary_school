@@ -4,38 +4,38 @@
 
 @layer base {
   :root {
-    /* === PREMIUM CALM PALETTE === */
-    --background: 250 250 248;        /* Warm White / Soft Ivory */
-    --foreground: 35 35 33;           /* Near black, readable */
+    /* === PREMIUM SOPHISTICATED PALETTE (Better Contrast) === */
+    --background: 250 250 248;        /* Warm off-white */
+    --foreground: 28 28 26;           /* Very dark for excellent readability */
 
     --card: 255 255 253;
-    --card-foreground: 35 35 33;
+    --card-foreground: 28 28 26;
 
     --popover: 255 255 253;
-    --popover-foreground: 35 35 33;
+    --popover-foreground: 28 28 26;
 
-    /* Deep Forest Green - Sophisticated primary */
-    --primary: 18 52 45;              /* hsl(18 52% 45%) - rich deep green */
+    /* Deep Forest Green - Much darker for strong contrast */
+    --primary: 165 42 22;             /* hsl(165 42% 22%) - rich dark green */
     --primary-foreground: 250 250 248;
 
-    /* Warm Sand - Secondary */
-    --secondary: 234 228 220;
-    --secondary-foreground: 55 50 45;
+    /* Warm Sand */
+    --secondary: 236 230 222;
+    --secondary-foreground: 50 46 42;
 
-    /* Soft Stone - Muted */
-    --muted: 245 242 238;
-    --muted-foreground: 95 90 85;
+    /* Soft warm gray */
+    --muted: 246 243 239;
+    --muted-foreground: 90 85 80;
 
-    /* Golden Amber - Subtle accent */
-    --accent: 175 135 85;
+    /* Subtle warm accent (not bright) */
+    --accent: 170 130 80;
     --accent-foreground: 255 255 253;
 
-    --destructive: 175 55 45;
+    --destructive: 170 50 42;
     --destructive-foreground: 250 250 248;
 
-    --border: 225 220 215;
-    --input: 225 220 215;
-    --ring: 18 52 45;
+    --border: 222 218 212;
+    --input: 222 218 212;
+    --ring: 165 42 22;
 
     --radius: 0.75rem;
   }
@@ -54,7 +54,7 @@
   }
 }
 
-/* === PREMIUM EDITORIAL STYLES === */
+/* Premium editorial styles */
 .section {
   @apply py-24 md:py-32;
 }
@@ -75,42 +75,22 @@
   @apply text-xl md:text-2xl text-muted-foreground font-normal tracking-[-0.01em];
 }
 
-/* Soft premium cards */
 .premium-card {
   @apply bg-card rounded-3xl shadow-[0_4px_24px_rgb(0,0,0,0.035)] hover:shadow-[0_12px_48px_rgb(0,0,0,0.06)] transition-all duration-500 border border-border/40;
 }
 
-/* Better contrast buttons */
-.btn-premium {
-  @apply inline-flex items-center justify-center rounded-full px-8 py-4 text-sm font-medium tracking-[0.02em] transition-all active:scale-[0.985];
-}
-
-/* Image handling */
-.img-hover {
-  @apply transition-transform duration-700 ease-out group-hover:scale-[1.03];
-}
-
-/* Smooth scroll */
-html.lenis {
-  scroll-behavior: auto;
-}
-
-/* Navbar */
 .nav-scrolled {
   @apply bg-background/95 backdrop-blur-xl border-b border-border/60 shadow-sm;
 }
 
-/* Form inputs */
 .input-premium {
   @apply w-full rounded-2xl border border-border bg-white px-6 py-4 text-base placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary/30 transition-all;
 }
 
-/* Stats */
 .stat-number {
   @apply font-display text-6xl md:text-7xl font-semibold tabular-nums tracking-[-0.04em];
 }
 
-/* Masonry */
 .masonry {
   column-count: 1;
   column-gap: 1.5rem;
