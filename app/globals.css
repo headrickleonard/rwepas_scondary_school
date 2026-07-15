@@ -22,9 +22,9 @@
     --secondary: 236 230 222;
     --secondary-foreground: 50 46 42;
 
-    /* Soft warm gray */
+    /* Soft warm gray - DARKER for good contrast */
     --muted: 246 243 239;
-    --muted-foreground: 90 85 80;
+    --muted-foreground: 75 70 65;     /* Much darker gray for readability */
 
     /* Subtle warm accent (not bright) */
     --accent: 170 130 80;
