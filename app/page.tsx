@@ -55,8 +55,8 @@ export default function RwepasSecondarySchool() {
       <section className="relative min-h-[100dvh] flex items-center justify-center pt-20 overflow-hidden bg-[#F8F6F3]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070" 
-            alt="Rwepas Secondary School students in a modern learning environment in Dar es Salaam" 
+            src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2Nob29sfGVufDB8fDB8fHww&q=80&w=2070" 
+            alt="Rwepas Secondary School students in a modern learning environment in Kahama" 
             className="object-cover w-full h-full brightness-[0.65]" 
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
@@ -65,7 +65,7 @@ export default function RwepasSecondarySchool() {
         <div className="container relative z-10 text-center text-white pt-10">
           <div className="max-w-5xl mx-auto">
             <div className="inline-block mb-6 px-5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-sm tracking-[3px] font-medium">
-              DAR ES SALAAM, TANZANIA • EST. 1998
+              Kahama, TANZANIA • EST. 1998
             </div>
 
             <h1 className="display text-white mb-6 tracking-[-0.05em] leading-[0.92]">
@@ -73,7 +73,7 @@ export default function RwepasSecondarySchool() {
             </h1>
             
             <p className="max-w-2xl mx-auto text-xl md:text-2xl text-white/90 font-light tracking-[-0.01em] mb-10">
-              A premier secondary school in Dar es Salaam nurturing leaders of character, 
+              A premier secondary school in Kahama nurturing leaders of character, 
               intellect, and purpose for Tanzania and the world.
             </p>
 
@@ -106,9 +106,7 @@ export default function RwepasSecondarySchool() {
           </div>
         </div>
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center text-white/60 text-xs tracking-[3px]">
-          SCROLL TO BEGIN <div className="h-px w-6 bg-white/40 mt-2" />
-        </div>
+       
       </section>
 
       <AboutSection />

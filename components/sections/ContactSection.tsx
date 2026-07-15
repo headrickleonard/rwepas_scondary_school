@@ -17,7 +17,7 @@ export default function ContactSection() {
                 <MapPin className="mt-1 h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <div className="font-medium">Rwepas Secondary School</div>
-                  <div className="text-muted-foreground">Plot 124, Msasani Peninsula<br />Dar es Salaam, Tanzania</div>
+                  <div className="text-muted-foreground">Plot 124, Nyihogo<br />Kahama, Tanzania</div>
                 </div>
               </div>
               <div className="flex gap-5">
@@ -47,7 +47,7 @@ export default function ContactSection() {
               variant="outline" 
               size="lg" 
               className="mt-10 rounded-2xl"
-              onClick={() => window.open("https://maps.google.com/?q=Msasani+Peninsula+Dar+es+Salaam", "_blank")}
+              onClick={() => window.open("https://maps.google.com/?q=nyihogo+kahama", "_blank")}
             >
               Get Directions
             </Button>
@@ -68,7 +68,7 @@ export default function ContactSection() {
               />
               <div className="absolute inset-0 pointer-events-none bg-gradient-to-br from-black/5 to-transparent" />
             </div>
-            <p className="text-center text-xs text-muted-foreground mt-3 tracking-widest">MSASANI PENINSULA • DAR ES SALAAM</p>
+            <p className="text-center text-xs text-muted-foreground mt-3 tracking-widest">Nyihogo • Kahama</p>
           </div>
         </div>
       </div>

@@ -5,8 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Rwepas Secondary School | Premier Secondary School in Dar es Salaam",
-  description: "Discover Rwepas Secondary School — a world-class secondary school in Dar es Salaam, Tanzania. Rooted in values, rising to excellence. Nurturing leaders of character, intellect, and purpose.",
+  title: "Rwepas Secondary School | Premier Secondary School in Kahama",
+  description: "Discover Rwepas Secondary School — a world-class secondary school in Kahama, Tanzania. Rooted in values, rising to excellence. Nurturing leaders of character, intellect, and purpose.",
   icons: {
     icon: "/favicon.ico",
   },

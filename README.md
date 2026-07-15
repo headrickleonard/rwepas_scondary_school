@@ -1,6 +1,6 @@
 # Tanzanite Academy Website
 
-A premium marketing website for Tanzanite Academy, an elite secondary school in Dar es Salaam, Tanzania.
+A premium marketing website for Tanzanite Academy, an elite secondary school in Kahama, Tanzania.
 
 Built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, Framer Motion, and Lenis.
 

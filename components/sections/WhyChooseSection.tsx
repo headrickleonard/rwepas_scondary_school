@@ -10,7 +10,7 @@ const features = [
   { icon: Laptop, title: "Modern Technology", desc: "1:1 device program, smart classrooms, high-speed campus-wide connectivity, and digital learning platforms." },
   { icon: Award, title: "Leadership Programs", desc: "Strong prefect system, student council, Model UN, entrepreneurship incubator, and community impact projects." },
   { icon: Heart, title: "Holistic Development", desc: "Sports, music, debate, drama, chess, coding, and over 35 clubs and societies that develop the whole child." },
-  { icon: Bus, title: "Safe Transport", desc: "GPS-tracked fleet with trained drivers serving Dar es Salaam and surrounding areas with the highest safety standards." },
+  { icon: Bus, title: "Safe Transport", desc: "GPS-tracked fleet with trained drivers serving Kahama and surrounding areas with the highest safety standards." },
   { icon: Home, title: "Boarding Excellence", desc: "Modern, comfortable boarding houses with academic support, weekend activities, and caring house parents who become extended family." },
 ]
 
