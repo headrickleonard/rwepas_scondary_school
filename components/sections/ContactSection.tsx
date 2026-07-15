@@ -38,7 +38,7 @@ export default function ContactSection() {
                 <Clock className="mt-1 h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <div className="font-medium">Office Hours</div>
-                  <div className="text-muted-foreground">Monday – Friday: 7:30am – 4:30pm<br />Saturday: 8:00am – 12:00pm</div>
+                  <div className="text-muted-foreground">Monday - Friday: 7:30am - 4:30pm<br />Saturday: 8:00am - 12:00pm</div>
                 </div>
               </div>
             </div>
@@ -53,6 +53,7 @@ export default function ContactSection() {
             </Button>
           </div>
 
+          {/* Map */}
           <div className="lg:col-span-7">
             <div className="aspect-[16/10] rounded-3xl overflow-hidden border border-border/60 shadow-inner relative bg-[#F5F2EE]">
               <iframe 
