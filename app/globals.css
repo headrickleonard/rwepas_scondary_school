@@ -109,3 +109,33 @@
   break-inside: avoid;
   margin-bottom: 1.5rem;
 }
+
+.campus-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+.campus-grid > * {
+  aspect-ratio: 4 / 3;
+}
+
+@media (min-width: 768px) {
+  .campus-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 220px);
+    grid-template-areas:
+      "hero hero lib  lib"
+      "hero hero lab  sport"
+      "tech tech board board";
+  }
+  .campus-grid > * {
+    aspect-ratio: auto;
+  }
+}
+
+.area-hero  { grid-area: hero; }
+.area-lib   { grid-area: lib; }
+.area-lab   { grid-area: lab; }
+.area-sport { grid-area: sport; }
+.area-tech  { grid-area: tech; }
+.area-board { grid-area: board; }
