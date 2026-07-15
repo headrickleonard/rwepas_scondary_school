@@ -8,7 +8,7 @@ import { RevealGroup, revealItem } from "@/components/motion/reveal"
 import { motion } from "framer-motion"
 
 const academics = [
-  { icon: BookOpen, title: "Cambridge & National Curriculum", desc: "A rigorous blend of the Cambridge IGCSE and the Tanzanian National Curriculum." },
+  { icon: BookOpen, title: "National Curriculum", desc: "A rigorous blend of the Tanzanian National Curriculum." },
   { icon: Microscope, title: "Science & Innovation", desc: "State-of-the-art labs for Biology, Chemistry, Physics, and Design Technology." },
   { icon: Palette, title: "Arts & Humanities", desc: "Exceptional programs in Visual Arts, Music, Theatre, History, and Literature." },
   { icon: Globe, title: "Languages & Global Studies", desc: "English, Kiswahili, French, and Mandarin, with exchange programs and Model UN." },
@@ -69,7 +69,7 @@ export default function AcademicsSection() {
 
         <div className="mt-10 text-center">
           <p className="text-muted-foreground text-sm">
-            Our graduates attend universities including Oxford, Cambridge, Stanford, UCT, and Makerere.
+            Our graduates attend .
           </p>
         </div>
       </div>

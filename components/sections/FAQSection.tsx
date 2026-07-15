@@ -9,7 +9,7 @@ import { RevealGroup, revealItem } from "@/components/motion/reveal"
 const faqs = [
   {
     question: "What curriculum does Rwepas follow?",
-    answer: "We offer a rigorous blend of the Cambridge IGCSE curriculum (Forms 1–4) and the Tanzanian National Curriculum, ensuring students are prepared for both local national examinations and international opportunities.",
+    answer: "We offer a rigorous curriculum (Forms 1–4) preparing students for the Tanzanian National Examinations.",
     tag: "Academics",
     tint: "primary" as const,
   },
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     question: "What is the student-teacher ratio?",
-    answer: "Our average class size is 20–22 students, allowing for personalised attention and strong relationships between teachers and students.",
+    answer: "Our average class size is 50–72 students, allowing for personalised attention and strong relationships between teachers and students.",
     tag: "Academics",
     tint: "primary" as const,
   },
